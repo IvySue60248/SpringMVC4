@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4f8c534d-8d2c-44c3-b1e4-2a79f9d15a54" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/domain/DemoObj.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/ch4_3/DemoAnnoController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/ch4_3/DemoRestController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    <list default="true" id="4f8c534d-8d2c-44c3-b1e4-2a79f9d15a54" name="Default Changelist" comment="add restController demo">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/MyMvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/MyMvcConfig.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -50,7 +47,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/ch4_3/DemoAnnoController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="348">
-              <caret line="36" column="86" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
+              <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -58,7 +55,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/ch4_3/DemoRestController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="238">
@@ -92,11 +89,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/MyMvcConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
+            <state relative-caret-position="221">
+              <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,13 +142,13 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/resources/logback.xml" />
         <option value="$PROJECT_DIR$/src/main/resources/views/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/MyMvcConfig.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/WebInitializer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/HelloController.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/domain/DemoObj.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/ch4_3/DemoAnnoController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/ch4_3/DemoRestController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/MyMvcConfig.java" />
       </list>
     </option>
   </component>
@@ -299,7 +296,7 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546691090270" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1546692652583" />
     <property name="last_opened_file_path" value="$USER_HOME$/MyLibrary/tomcat/apache-tomcat-8.5.37" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
@@ -344,8 +341,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25642672" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -360,7 +358,7 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3301887" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3301887" />
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -372,6 +370,13 @@
       <window_info anchor="right" id="Capture Analysis" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
+    <MESSAGE value="add restController demo" />
+    <option name="LAST_COMMIT_MESSAGE" value="add restController demo" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/resources/views/index.jsp">
@@ -408,16 +413,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/MyMvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="27" selection-start-line="15" selection-start-column="27" selection-end-line="15" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -446,7 +441,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/web/ch4_3/DemoAnnoController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
-          <caret line="36" column="86" selection-start-line="36" selection-start-column="86" selection-end-line="36" selection-end-column="86" />
+          <caret line="35" column="86" selection-start-line="35" selection-start-column="86" selection-end-line="35" selection-end-column="86" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -463,6 +458,16 @@
             <element signature="e#301#302#0" expanded="true" />
             <element signature="e#531#532#0" expanded="true" />
             <element signature="e#602#603#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/wisely/highlight_springmvc4/MyMvcConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="13" column="10" lean-forward="true" selection-start-line="13" selection-start-column="10" selection-end-line="13" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
